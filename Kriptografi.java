@@ -3,11 +3,7 @@ package com.Tugas;
 import java.util.Scanner;
 
 public class Kriptografi {
-	/*private Enkripsi enkrip;
-	private Dekripsi dekrip;
-	private Scanner input;*/
 	public static void main(String[] args) {
-		//Kriptografi kripto = new Kriptografi();
 		Enkripsi enkrip = new Enkripsi();
 		Dekripsi dekrip = new Dekripsi();
 		Scanner input = new Scanner(System.in);
